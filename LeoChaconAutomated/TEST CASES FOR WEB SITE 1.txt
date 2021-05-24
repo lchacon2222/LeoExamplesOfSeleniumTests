@@ -1,0 +1,18 @@
+TEST CASES FOR WEB SITE 1: 
+● Form Authentication - http://the-internet.herokuapp.com/login
+
+TEST CASE 1: Wrong User Name
+GIVEN THAT: an invalid User name is entered in user name field
+WHEN: click "Login" button
+THEN: The following message is displayed: "Your username is invalid!"
+
+TEST CASE 2: Wrong Password
+GIVEN THAT: a valid User name is entered in user name field and an invalid password is entered in password field
+WHEN: click "Login" button
+THEN: The following message is displayed: "Your password is invalid!"
+
+TEST CASE 3: Login Successful
+GIVEN THAT: a valid User name is entered in user name field and a valid password is entered in password field
+WHEN: click "Login" button
+THEN: The following message is displayed: " You logged into a secure area!"
+

@@ -1,0 +1,13 @@
+TEST CASES FOR WEB SITE 2:
+● Notification Messages - http://the-internet.herokuapp.com/notification_message_rendered
+
+TEST CASE 1: Random notification message rendered after the first attempt
+GIVEN THAT: The corresponding web page has been rendered
+WHEN: Hit "Click here" hyperlink
+THEN: One of the the following messages is displayed: "Action successful" or "Action unsuccesful, please try again"
+
+TEST CASE 2: Random notification message rendered after two attempts
+GIVEN THAT: The corresponding web page has been rendered
+WHEN: Hit "Click here" hyperlink and then Hit "Click here" hyperlink again
+THEN: One of the the following messages is displayed: "Action successful" or "Action unsuccesful, please try again" 
+and after the second attempt, one of the the following messages is displayed: "Action successful" or "Action unsuccesful, please try again"
