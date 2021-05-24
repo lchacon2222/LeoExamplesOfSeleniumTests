@@ -27,3 +27,5 @@ In order to utilise this project you need to have the following installed locall
 
 Browsers
 ● CHROME version 90.0.4430.212 (Build oficial) (64 bits)
+
+Test cases have been described within LeoChaconAutomated/ folder
