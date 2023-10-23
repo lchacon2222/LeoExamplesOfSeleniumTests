@@ -1,5 +1,5 @@
-# seleniumtests Leo Example
-seleniumtests Leo Example
+# Leo - Examples Of Selenium Tests Using Java
+Leo - Examples Of Selenium Tests Using Java
 
 Selenium Tests:
 This repository contains Selenium tests for the following 2 web sites:
