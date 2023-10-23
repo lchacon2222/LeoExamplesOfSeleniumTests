@@ -1,5 +1,5 @@
-# seleniumtestsSOMO
-seleniumtestsSOMO
+# seleniumtests Leo Example
+seleniumtests Leo Example
 
 Selenium Tests:
 This repository contains Selenium tests for the following 2 web sites:
